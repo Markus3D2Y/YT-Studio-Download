@@ -17,6 +17,10 @@ Dort unter „Assets“ die Datei `YTStudio-<Version>-Setup-x64.exe` laden und s
 - Fehlt Microsoft WebView2, richtet das Setup es ein; nur dafür ist Internet nötig.
 - Das Setup ist nicht mit einem Codesigning-Zertifikat signiert. Windows SmartScreen kann deshalb „Der Computer wurde durch Windows geschützt“ anzeigen: **Weitere Informationen → Trotzdem ausführen**. Die SHA-256-Prüfsumme steht in `YTStudio-<Version>-SHA256SUMS.txt`.
 
+## Soundboard im Spiel (VB-CABLE)
+
+Damit Mitspieler Soundboard und Stimme hören, enthält das Setup **VB-CABLE** von VB-Audio Software – unverändert, Donationware: [www.vb-cable.com](https://vb-audio.com/Cable/). Im Setup ist „VB-CABLE für das Soundboard installieren“ angehakt, wenn es noch fehlt; Windows fragt nach Administratorrechten, im VB-Audio-Fenster „Install Driver“ klicken, danach den PC neu starten. Im Spiel und in Discord einmalig **CABLE Output** als Mikrofon wählen. Wer VB-CABLE nützlich findet, kann VB-Audio mit einer Spende oder Lizenz unterstützen.
+
 ## Updates
 
-Einfach das neue Setup starten. Es erkennt die vorhandene Installation und aktualisiert nur die Programmdateien. Charaktere, Avatare, Einstellungen, Thumbnails, Soundboard, Clips und Downloads bleiben erhalten – auch bei einer Deinstallation. Vorher das Studio vollständig beenden (gegebenenfalls über das Symbol im Infobereich neben der Uhr).
+Einfach das neue Setup starten. Es erkennt die vorhandene Installation und aktualisiert nur die Programmdateien. Charaktere, Avatare, Einstellungen, Thumbnails, Soundboard, Clips und Downloads bleiben erhalten – auch bei einer Deinstallation. VB-CABLE bleibt bei der Deinstallation des Studios installiert (entfernen über das VB-Audio-Setup, „Remove Driver“). Vorher das Studio vollständig beenden (gegebenenfalls über das Symbol im Infobereich neben der Uhr).
